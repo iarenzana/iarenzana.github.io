@@ -11,6 +11,6 @@ Spanish at heart, American by residence.
 
 Contact me at [iarenzana@gmail.com](mailto://iarenzana@gmail.com).
 
-PGP Fingerprint `AFB2 336F 7EA5 BE5A B9B2  2FF8 2B20 1107 DA00 4171` and [PGP Public Key](https://raw.githubusercontent.com/iarenzana/iarenzana.github.io/master/assets/misc/rsa_public_key.txt).
-{% highlight bash %} AFB2 336F 7EA5 BE5A B9B2  2FF8 2B20 1107 DA00 4171 {% endhighlight %}
+PGP Fingerprint {% highlight bash %} AFB2 336F 7EA5 BE5A B9B2  2FF8 2B20 1107 DA00 4171 {% endhighlight %} and [PGP Public Key](https://raw.githubusercontent.com/iarenzana/iarenzana.github.io/master/assets/misc/rsa_public_key.txt).
+
 {% include footer.html %}
