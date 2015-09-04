@@ -12,14 +12,14 @@ avatar: https://avatars1.githubusercontent.com/u/5133407?v=3&amp;s=400
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://iarenzana.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: true
 disqus_shortname: 'iarenzanagithubio'
 comments: true
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
+url:            'http://iarenzana.github.io'
 author:         'Ismael Arenzana'
 authorTwitter:  'iarenzana'
 
