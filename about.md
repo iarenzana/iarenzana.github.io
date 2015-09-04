@@ -11,6 +11,6 @@ Spanish at heart, American by residence.
 
 Contact me at [iarenzana@gmail.com](mailto://iarenzana@gmail.com).
 
-[PGP Public Key](https://github.com/iarenzana/iarenzana.github.io/tree/master/assets/misc/rsa_public_key.txt).
+[PGP Public Key](https://raw.githubusercontent.com/iarenzana/iarenzana.github.io/master/assets/misc/rsa_public_key.txt).
 
 {% include footer.html %}
