@@ -4,6 +4,7 @@ permalink: about/
 profile: true
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+[Photographer](http://arenzanaphotography.com) and [Systems guy](http://trnswrks.com). Interested in everything from art to technology, faith to travel.
+Spanish at heart, American by residence.
 
 {% include footer.html %}
