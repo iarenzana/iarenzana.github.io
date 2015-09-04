@@ -15,7 +15,8 @@ baseurl: /
 domain_name: 'http://yourblog-domain.com'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: true
-disqus_shortname: 'iarenzana'
+disqus_shortname: 'iarenzanagithubio'
+comments: true
 
 # Details for the RSS feed generator
 url:            'http://your-blog-url.example.com'
