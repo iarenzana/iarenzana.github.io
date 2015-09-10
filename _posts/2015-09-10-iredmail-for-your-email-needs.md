@@ -25,9 +25,9 @@ What you will need
 
 You will need a few things before you're up and running.
 
-* A domain. Registrars such as [hover.com](hover.com), [godaddy.com](godaddy.com), or [domain.com](domain.com) offer domains for cheap, you will need one. For the purpose of this article, the domain we will use is *example.com*.
+* A domain. Registrars such as [hover.com](http://hover.com), [godaddy.com](http://godaddy.com), or [domain.com](http://domain.com) offer domains for cheap, you will need one. For the purpose of this article, the domain we will use is *example.com*.
 
-* A VPS. I recommend [Digital Ocean](digitalocean.com) as they have simple to set up VPSs with easy to understand pricing. For the purpose of this article, we will use a $5/month droplet running CentOS 7 and we will call it *comms01*.
+* A VPS. I recommend [Digital Ocean](http://digitalocean.com) as they have simple to set up VPSs with easy to understand pricing. For the purpose of this article, we will use a $5/month droplet running CentOS 7 and we will call it *comms01*.
 
 Prep work
 --
@@ -117,4 +117,4 @@ firewall-cmd --zone=public --add-port=443/tcp
 Summary
 --
 
-As you can see, it's easy to run your own email server. I've missed some very important points, such as redundancy, replication, failover, and mail reputation. I will go over some of these topics in the future and how to set up [Mailgun](mailgun.com) as your outgoing SMTP service to improve your email reputation and deliverability.
+As you can see, it's easy to run your own email server. I've missed some very important points, such as redundancy, replication, failover, and mail reputation. I will go over some of these topics in the future and how to set up [Mailgun](http://mailgun.com) as your outgoing SMTP service to improve your email reputation and deliverability.
