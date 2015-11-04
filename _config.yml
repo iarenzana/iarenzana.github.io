@@ -1,4 +1,4 @@
-name: iarenzana
+name: arenzana.org
 description: Dev, IT, Photographer
 meta_description: "iarenzana, Dev, IT, Photographer"
 
@@ -12,14 +12,14 @@ avatar: https://avatars1.githubusercontent.com/u/5133407?v=3&amp;s=400
 
 paginate: 20
 baseurl: /
-domain_name: 'http://iarenzana.github.io'
+domain_name: 'arenzana.org'
 google_analytics: 'UA-578689-9'
 disqus: true
 disqus_shortname: 'iarenzanagithubio'
 comments: true
 
 # Details for the RSS feed generator
-url:            'http://iarenzana.github.io'
+url:            'arenzana.org'
 author:         'Ismael Arenzana'
 authorTwitter:  'iarenzana'
 
