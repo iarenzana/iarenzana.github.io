@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 layout: page
 title: About
 ---
@@ -28,3 +29,20 @@ Some fun facts about the setup of this project include:
 Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
 Thanks for reading!
+=======
+title: About
+permalink: about/
+profile: true
+---
+
+[Photographer](http://arenzanaphotography.com) and [Systems guy](http://trnswrks.com).
+Interested in everything: from art to technology, faith to travel.
+
+Spanish at heart, American by residence.
+
+Contact me at [iarenzana@gmail.com](mailto://iarenzana@gmail.com).
+
+PGP Fingerprint {% highlight bash %} AFB2 336F 7EA5 BE5A B9B2  2FF8 2B20 1107 DA00 4171 {% endhighlight %} and [PGP Public Key](https://raw.githubusercontent.com/iarenzana/iarenzana.github.io/master/assets/misc/rsa_public_key.txt).
+
+{% include footer.html %}
+>>>>>>> 0cfe6bbbb05b06225dcf36e6c2a3c6ab18e3d0ef
