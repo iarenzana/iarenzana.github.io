@@ -39,7 +39,7 @@ Install iRedMail
 --
 SSH into your brand new server:
 
-`ssh root@comms01@example.com`
+`ssh root@comms01.example.com`
 
 As a sysadmin I can't recommend you log into your machine as root, but for the sake of time, I will not go over how to create a local, unprivileged user.
 As of this writing, the latest version of iRedMail is 0.9.2, so this is what we will use. Let's start by downloading and uncompressing the package:
