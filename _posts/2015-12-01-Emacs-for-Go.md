@@ -75,6 +75,7 @@ Open emacs `M-x package-install go-mode`. This will install go-mode, that will d
 go-eldoc
 ---
 Install go-eldoc: `M-x package-install go-eldoc`. And load it on your `~/.emacs`:
+
 ```lisp
 (defun go-mode-setup ()
   (go-eldoc-setup))
@@ -94,7 +95,7 @@ Load gofmt in `~/.emacs`. This is necessary to allow for a consistent code forma
 
 goimports
 ---
-goimports keeps your imports section nice and tidy, it will add and remove import statements as necessary. Ad these lines to your `~/.emacs`:
+goimports keeps your imports section nice and tidy, it will add and remove import statements as necessary. Ad these lines to your `~/.emacs` :
 
 ```lisp
 (defun go-mode-setup ()
