@@ -74,7 +74,7 @@ Open emacs `M-x package-install go-mode`. This will install go-mode, that will d
 
 go-eldoc
 ---
-Install go-eldoc: `M-x package-install go-eldoc`. And load it on your ` ~/.emacs `:
+Install go-eldoc: `M-x package-install go-eldoc`. And load it on your `~/.emacs`:
 
 ```lisp
 (defun go-mode-setup ()
@@ -144,6 +144,7 @@ Autocomplete
 ![IMAGE 3](https://raw.githubusercontent.com/iarenzana/iarenzana.github.io/master/assets/images/2015/12/autocomplete.png)
 
 No explanation necessary :) Add the following to you `~/.emacs` file:
+
 ```lisp
 (ac-config-default)
 (require 'auto-complete-config)
