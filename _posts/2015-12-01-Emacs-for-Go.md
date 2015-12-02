@@ -143,7 +143,7 @@ Autocomplete
 
 ![IMAGE 3](https://raw.githubusercontent.com/iarenzana/iarenzana.github.io/master/assets/images/2015/12/autocomplete.png)
 
-No explanation necessary :) Add the following to you `~/.emacs` file:
+No explanation necessary :) Add the following to you `~/.emacs` file and install with M-x package install go-autocomplete:
 
 ```lisp
 (ac-config-default)
@@ -163,7 +163,35 @@ You can run golint with `M-x golint` by adding this to your init file:
 
 Extras
 ---
-There's a couple of things that I need in addition to this. First, is a project explorer. To do this, you can run package-install project-explorer. You can toggle the explorer on with M-x project-explorer-toggle.
+There's a couple of things that I need in addition to this. First, is a project explorer. To do this, you can run M-x package-install project-explorer. You can toggle the explorer on with M-x e with this key binding.
+
+```lisp
+;;Project Explorer
+(require 'project-explorer)
+(global-set-key (kbd "M-e") 'project-explorer-toggle)
+```
+
+For portability, make it so the packages get installed by default on the machine.
+```lisp
+(defvar my-packages
+  '(;;;; Go shit
+    go-mode
+    go-eldoc
+    go-autocomplete
+
+        ;;;;;; Env
+    project-explorer)
+  "My packages!")
+
+;; fetch the list of packages available
+(unless package-archive-contents
+  (package-refresh-contents))
+
+;; install the missing packages
+(dolist (package my-packages)
+  (unless (package-installed-p package)
+    (package-install package)))
+```
 
 Wrap up
 --
