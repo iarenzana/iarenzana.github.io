@@ -1,4 +1,4 @@
----
+.---
 title:  "Emacs setup for Go Development"
 date:   2015-12-01 14:25:00
 description: "How to set up the emacs text editor to develop in Go."
@@ -160,6 +160,10 @@ You can run golint with `M-x golint` by adding this to your init file:
 (add-to-list 'load-path (concat (getenv "GOPATH")  "/src/github.com/golang/lint/misc/emacs"))
 (require 'golint)
 ```
+
+Extras
+---
+There's a couple of things that I need in addition to this. First, is a project explorer. To do this, you can run package-install project-explorer. You can toggle the explorer on with M-x project-explorer-toggle.
 
 Wrap up
 --
