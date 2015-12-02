@@ -7,7 +7,7 @@ tags: golang development emacs config programming go
 ---
 
 Emacs for Go Development
-==
+=
 
 Intro
 -
@@ -20,7 +20,7 @@ Scenario
 I'm working on OS X and I'm setting up Emacs 24 to develop in Go.
 
 Install Necessary Components
---
+-
 Naturally, we will need Emacs and Go installed in order to start writing software. To do this, let's use [Homebrew](http://brew.sh/) to install both:
 
 ```bash
@@ -195,7 +195,7 @@ For portability, make it so the packages get installed by default on the machine
 ```
 
 Wrap up
---
+-
 At this point we have everything we need to start coding. I particularly like the Solarized dark color scheme. Check it out [here](http://ethanschoonover.com/solarized).
 
 This is the resulting `~/.emacs` file:
