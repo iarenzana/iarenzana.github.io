@@ -172,6 +172,7 @@ There's a couple of things that I need in addition to this. First, is a project 
 ```
 
 For portability, make it so the packages get installed by default on the machine.
+
 ```lisp
 (defvar my-packages
   '(;;;; Go shit
