@@ -1,4 +1,4 @@
-.---
+---
 title:  "Emacs setup for Go Development"
 date:   2015-12-01 14:25:00
 description: "How to set up the emacs text editor to develop in Go."
