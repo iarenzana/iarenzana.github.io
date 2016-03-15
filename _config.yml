@@ -1,36 +1,5 @@
-<<<<<<< HEAD
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+name: arenzana.org
 
-# Setup
-title:               arenzana.org
-tagline:             The Simple
-url:                 http://iarenzana.githug.io
-paginate:            5
-baseurl:             ""
-
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
-author:
-  name:              Ismael Arenzana
-  url:               https://twitter.com/iarenzana
-  email:             iarenzana@gmail.com
-
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/iarenzana/iarenzana.github.io
-=======
-name: iarenzana
 description: Dev, IT, Photographer
 meta_description: "iarenzana, Dev, IT, Photographer"
 
@@ -44,14 +13,14 @@ avatar: https://avatars1.githubusercontent.com/u/5133407?v=3&amp;s=400
 
 paginate: 20
 baseurl: /
-domain_name: 'http://iarenzana.github.io'
-google_analytics: 'UA-XXXXXXXX-X'
+domain_name: 'arenzana.org'
+google_analytics: 'UA-578689-9'
 disqus: true
 disqus_shortname: 'iarenzanagithubio'
 comments: true
 
 # Details for the RSS feed generator
-url:            'http://iarenzana.github.io'
+url:            'arenzana.org'
 author:         'Ismael Arenzana'
 authorTwitter:  'iarenzana'
 
@@ -76,4 +45,4 @@ defaults:
             type: drafts
         values:
             layout: post
->>>>>>> 0cfe6bbbb05b06225dcf36e6c2a3c6ab18e3d0ef
+
