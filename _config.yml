@@ -5,7 +5,6 @@ meta_description: "iarenzana, Dev, IT, Photographer"
 
 aboutPage: true
 
-markdown: redcarpet
 highlighter: rouge
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
