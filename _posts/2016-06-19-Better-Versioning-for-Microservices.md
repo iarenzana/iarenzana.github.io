@@ -12,7 +12,8 @@ Better Versioning for Microservices
 The Problem
 -
 
-Versioning is the worst. [Semantic versioning] (http://semver.org/) works well for client facing applications, but for microservices, where you might produce several production builds a week (or a day!) this method just doesn't scale. Internally, we don't necessarily care about major/minor releases and, when troubleshooting, we need some information that a version just can't get us. That's why I advocate for a dual versioning system.
+Versioning is the worst. [Semantic versioning](http://semver.org/) works well for client facing applications, but for microservices, where you might produce several production builds a week (or a day!) this method just doesn't scale. Internally, we don't necessarily care about major/minor releases and, when troubleshooting, we need some information that a version just can't get us. That's why I advocate for a dual versioning system.
+
 
 Dual Versions
 -
@@ -28,6 +29,7 @@ Build: 20160620.162046
 Git Hash: d9beaada25cb3d505d0c1e90f222fae8a56a3753
 ```
 
+
 Dual Versioning in Go
 -
 The first problem we face here, is one of the requirements that we have for versioning: automated. For some other applications, I used to do it by hand: *"When merging, just bump up the version."* I would usually say. My team and I forgot all the time and ended up with a mess that would just not scale.
@@ -37,7 +39,7 @@ Luckily, Go allows us to populate variables at link time. In our case, we have a
 go build -ldflags "-X 'github.com/iarenzana/ittools/sqlmgr/cmd.build=`date -u +%Y%m%d.%H%M%S`' -X 'github.com/iarenzana/ittools/sqlmgr/cmd.gitHash=`git rev-parse HEAD`'"
 ```
 
-Inside our `cmd` package, we can now create two empty variables (`build` and `gitHash`) and use them on the version display function. This is what the version display function in (Cobra) [https://github.com/spf13/cobra] would look like.
+Inside our `cmd` package, we can now create two empty variables (`build` and `gitHash`) and use them on the version display function. This is what the version display function in [Cobra](https://github.com/spf13/cobra) would look like.
 
 ```go
 
@@ -84,10 +86,12 @@ Advantages
 * Fully automated. An operator doesn't need to bump up versions manually.
 * The build version can be used as part of the deb/rpm name to get the packages sorted in choronological order.
 
+
 Disadvantages
 -
 
 * Not user friendly. I probably wouldn't use this versioning mechanism for customer facing applications, as it doesn't give us an idea as to what to expect from the version (major vs minor, etc).
+
 
 Wrap up
 -
